@@ -118,10 +118,10 @@ const App = () => {
         razonSocial: "Empresa de Midward",
         nombreComercial: "Mi empresa",
         address: {
-          direccion: "Direccion empresa",
-          provincia: "LIMA",
-          departamento: "LIMA",
-          distrito: "LIMA",
+          direccion: "Jr. Arequipa 114",
+          provincia: "PUNO",
+          departamento: "PUNO",
+          distrito: "PUNO",
           ubigueo: "150101"
         }
       },
@@ -246,6 +246,8 @@ const App = () => {
             placeholder="Distrito"
             className="border p-2 rounded"
           />
+          <div>
+          <h2>Ubigeo</h2>
           <input
             type="text"
             name="ubigueo"
@@ -254,6 +256,7 @@ const App = () => {
             placeholder="Ubigueo"
             className="border p-2 rounded"
           />
+          </div>
         </form>
       </div>
       <button
